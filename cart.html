@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedStore - Cart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="cart">
+            <h1>Cart</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th>Total</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="cart-items">
+                    <!-- Cart items will be displayed here -->
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Subtotal:</td>
+                        <td id="subtotal">$0.00</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">Shipping:</td>
+                        <td id="shipping">$0.00</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">Total:</td>
+                        <td id="total">$0.00</td>
+                        <td></td>
+                    </tr>
+                </tfoot>
+            </table>
+            <button id="checkout-btn">Checkout</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 MedStore. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
